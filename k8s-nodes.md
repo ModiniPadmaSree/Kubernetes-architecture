@@ -4,7 +4,6 @@ A Kubernetes cluster consists of two main types of nodes:
 1. Master Node (Control Plane)
 
 2. Worker Nodes
- \
 1. Master Node (Control Plane) \
 The Master Node is responsible for managing the entire cluster.
 
@@ -18,7 +17,6 @@ Validates and stores data in etcd.
 
 - Scheduler \
 Assigns newly created Pods to appropriate worker nodes. \
-
 Considers: \
 CPU and memory availability \
 Node labels \
@@ -33,14 +31,14 @@ Job Controller \
 Ensures desired state equals actual state.
 - etcd \
 Distributed key-value store. \
-Stores all cluster configuration and state data. \
+Stores all cluster configuration and state data.
 2. Worker Nodes \
 Worker nodes are responsible for running application workloads. \
 Each worker node contains:
 - Kubelet \
 Agent running on each worker.\
 Communicates with API server. \
-Ensures containers are running as expected. \
+Ensures containers are running as expected.
 - Kube Proxy
 Manages networking rules. \
 Enables Service-based communication. \
