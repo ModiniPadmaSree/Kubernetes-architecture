@@ -1,6 +1,6 @@
 Kubernetes Control Plane Components \
 The Control Plane is responsible for managing the Kubernetes cluster. \
-It makes global decisions about: Scheduling, Scaling, Maintaining cluster state \
+It makes global decisions about: Scheduling, Scaling, Maintaining cluster state.
 1. API Server: The API Server is the central management component.
 Responsibilities:
 - Accepts REST requests
@@ -31,7 +31,7 @@ Affinity/anti-affinity rules,
 Taints and tolerations,
 Once a node is selected, the Pod is bound to that node.
  \
-Control Plane Workflow \
+Control Plane Workflow
 1. User creates a Deployment.
 2. API Server validates request.
 3. Desired state is stored in etcd.
