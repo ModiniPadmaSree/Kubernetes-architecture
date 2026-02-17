@@ -73,4 +73,16 @@ Container Runtime \
 
 Runs containers. \
 
-Examples: containerd, CRI-O
+Examples: containerd, CRI-O \
+\
+How Master and Worker Nodes Work Together \
+User submits request using kubectl. \
+
+API Server receives request. \
+
+Scheduler assigns Pod to a worker node. \
+
+Kubelet starts container on that node. \
+
+Controller Manager ensures replica count is maintained. \
+In managed cloud services (EKS, AKS, GKE), the Master Node is maintained by the cloud provider.
