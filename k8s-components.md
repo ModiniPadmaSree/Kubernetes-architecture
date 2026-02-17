@@ -1,4 +1,4 @@
-Kubernetes is a container orchestration platform used to automate the deployment, scaling, and management of containerized applications. The following are the main workload and configuration components used in Kubernetes. \
+Kubernetes is a container orchestration platform used to automate the deployment, scaling, and management of containerized applications. The following are the main workload and configuration components used in Kubernetes.
 1. Pods: A Pod is the smallest and most basic deployable object in Kubernetes. It represents a single instance of a running application. \
 Key Characteristics:
 - Contains one or more containers.
@@ -43,15 +43,11 @@ Although ReplicaSets can be used directly, they are usually managed by Deploymen
 Examples: Environment variables, Database hostnames, Application configuration values \
 Purpose: Separates configuration from application code, making applications more portable and easier to manage.
 6. Secrets: A Secret stores sensitive information such as:
-
 - Passwords
-
 - API keys
-
 - Tokens
 
 - Certificates \
 Secrets are stored securely (base64 encoded) and can be injected into Pods as: \
-- Environment variables
-- Mounted files
+Environment variables, Mounted files
 Importance: Improves security by preventing hardcoding credentials inside container images.
