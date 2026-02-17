@@ -1,5 +1,5 @@
 Kubernetes Cluster Setup on Cloud Platforms \
-Kubernetes clusters can be deployed on major cloud platforms using managed services. \
+Kubernetes clusters can be deployed on major cloud platforms using managed services.
 1. AWS – Amazon EKS
 Using Amazon EKS (Elastic Kubernetes Service) \
 Amazon EKS is a managed Kubernetes service provided by AWS. The control plane is fully managed by AWS. \
@@ -43,7 +43,7 @@ az aks get-credentials \
 kubectl get nodes \
 In AKS: \
 Control plane is managed by Azure. \
-Node pools are created as virtual machines. \
+Node pools are created as virtual machines.
 3. Google Cloud – Google Kubernetes Engine (GKE) \
 Using Google Kubernetes Engine (GKE) \
 GKE is Google Cloud’s managed Kubernetes service. \
